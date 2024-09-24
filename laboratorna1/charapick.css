@@ -1,0 +1,62 @@
+body {
+    margin: 9px;
+    font-family: 'Garamond', serif;
+    padding-left: 20px;
+    font-size: 20px;
+    color:#1e1720;
+    background-color: #9e90a3;
+}
+
+h1, h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+img {
+    padding: 10px;
+}
+
+div p {
+    margin: 5px;
+}
+
+#character_name {
+    width: 300px;
+}
+
+#character_name, #character_race {
+    font-size: 15px;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: #b7a7bd;
+    border: 1px solid #3e2f42;
+}
+
+select {
+    width: 150px;
+}
+
+#stats {
+    border: 2px solid #514555;
+    width: 300px;
+    padding: 5px;
+    margin-top: 20px;
+    
+}
+
+button {  
+    display: block;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #bfa9c7;
+
+    font-size: 15px;
+    border: 1px solid #514555;
+    
+    cursor: pointer;
+}
