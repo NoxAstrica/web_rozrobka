@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="charapick.css">
+
+    <title>Character Fight</title>
+</head>
+<body>
+
+<h1>Character Selection</h1>
+
+<h2>Create your own fighter and challenge the monster!</h2>
+
+<p>Enter your character's name:</p> 
+<input type="text" id="character_name" placeholder="Character Name">
+
+<p>Choose a race:</p>
+<select id="character_race">
+    <option value="">Select race</option>
+    <option value="human">Human</option>
+    <option value="elf">Elf</option>
+    <option value="fairy">Fairy</option>
+    <option value="goliath">Goliath</option>
+    <option value="orc">Orc</option>
+    <option value="tiefling">Tiefling</option>
+</select>
+
+<p>Choose a class:</p>
+<div id="character_class">
+    <label><input type="radio" name="class" value="none" checked> None</label><br>
+    <label><input type="radio" name="class" value="barbarian"> Barbarian</label><br>
+    <label><input type="radio" name="class" value="druid"> Druid</label><br>
+    <label><input type="radio" name="class" value="monk"> Monk</label><br>
+    <label><input type="radio" name="class" value="paladin"> Paladin</label><br>
+    <label><input type="radio" name="class" value="rogue"> Rogue</label><br>
+    <label><input type="radio" name="class" value="sorcerer"> Sorcerer</label>
+</div>
+
+<img id="character_icon" class="char_icon" src="" alt="Character Icon" style="display: none;">
+
+<div id="stats">
+    <p>HP: <span id="hp">0</span></p>
+    <p>ATK: <span id="atk">0</span></p>
+    <p>DEF: <span id="def">0</span></p>
+    <p>Stamina: <span id="stamina">0</span></p>
+    <p>Special Trait: <span id="trait">None</span></p>
+</div>
+
+<button id="startFight">Start a Fight</button>
+
+<script src="charapick_script.js"></script>
+
+</body>
+</html>
