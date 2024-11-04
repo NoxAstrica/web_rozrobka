@@ -1,1 +1,14 @@
-
+{
+  "manifest_version": 3,
+  "name": "Colorful Reading Change",
+  "version": "1.0",
+  "description": "Change reading modes for better visibility.",
+  "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+  },
+  "permissions": [
+      "scripting",
+      "activeTab"
+  ]
+}
